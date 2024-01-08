@@ -6,6 +6,7 @@ peoplealsoask_df = pd.read_csv("Peoplealsosearch.csv")
 relatedsearches_df = pd.read_csv("Related.csv")
 
 # Combine DataFrames into a single DataFrame with meaningful column names
+#my name is AAdarsh, I am a NERD
 combined_df = pd.DataFrame()
 combined_df['peoplealsoask_value'] = peoplealsoask_df['VALUE']
 combined_df['relatedsearches_value'] = relatedsearches_df['VALUE']
